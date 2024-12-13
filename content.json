@@ -1,0 +1,107 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "LogName": "Load Barn Dinosaur Images",
+      "Action": "Load",
+      "Target": "assets/Pepper Rex, assets/Dinosaur",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "LogName": "Load Barn Dinosaur Data",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "Entries": {
+        "Pepper Rex": {
+          "DisplayName": "[LocalizedText Strings\\Locations:AdventureGuild_KillList_PepperRex]",
+          "House": "Barn",
+          "Gender": 0,
+          "PurchasePrice": -1,
+          "SellPrice": 1000,
+          "ShopTexture": null,
+          "ShopSourceRect": {
+            "X": 0,
+            "Y": 0,
+            "Width": 0,
+            "Height": 0
+          },
+          "ShopDisplayName": null,
+          "ShopDescription": null,
+          "ShopMissingBuildingDescription": null,
+          "RequiredBuilding": null,
+          "UnlockCondition": null,
+          "AlternatePurchaseTypes": null,
+          "EggItemIds": [
+            "107"
+          ],
+          "IncubationTime": 18000,
+          "IncubatorParentSheetOffset": 1,
+          "BirthText": "[LocalizedText Strings\\Locations:AnimalHouse_Incubator_Hatch_DinosaurEgg]",
+          "DaysToMature": 7,
+          "CanGetPregnant": false,
+          "DaysToProduce": 7,
+          "HarvestType": 0,
+          "HarvestTool": null,
+          "ProduceItemIds": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "MinimumFriendship": 0,
+              "ItemId": "107"
+            }
+          ],
+          "DeluxeProduceItemIds": [],
+          "ProduceOnMature": true,
+          "FriendshipForFasterProduce": -1,
+          "DeluxeProduceMinimumFriendship": 200,
+          "DeluxeProduceCareDivisor": 1200,
+          "DeluxeProduceLuckMultiplier": 0,
+          "CanEatGoldenCrackers": true,
+          "ProfessionForHappinessBoost": 3,
+          "ProfessionForQualityBoost": 3,
+          "ProfessionForFasterProduce": -1,
+          "Sound": null,
+          "BabySound": null,
+          "Texture": "assets/Pepper Rex",
+          "HarvestedTexture": null,
+          "BabyTexture": "assets/Dinosaur",
+          "UseFlippedRightForLeft": false,
+          "SpriteWidth": 32,
+          "SpriteHeight": 32,
+          "UseDoubleUniqueAnimationFrames": true,
+          "SleepFrame": 16,
+          "EmoteOffset": {
+            "X": 0,
+            "Y": 16
+          },
+          "SwimOffset": {
+            "X": 0,
+            "Y": 112
+          },
+          "Skins": null,
+          "ShadowWhenBabySwims": null,
+          "ShadowWhenBaby": {
+            "Scale": 4,
+            "Offset": {
+              "X": 4,
+              "Y": -4
+            }
+          },
+          "ShadowWhenAdultSwims": null,
+          "ShadowWhenAdult": {
+            "Scale": 8,
+            "Offset": {
+              "X": 8,
+              "Y": -16
+            }
+          },
+          "Shadow": null,
+          "CanSwim": false,
+          "BabiesFollowAdults": false,
+          "GrassEatAmount": 4,
+          "HappinessDrain": 5
+        }
+      }
+    }
+  ]
+}
