@@ -1,12 +1,8 @@
 {
   "Format": "2.0.0",
   "ConfigSchema": {
-    "Sound": {
-      "AllowValues": "true, false",
-      "Default": "false"
-    },
-    "Sell Price" {
-      "AllowBlank": true,
+    "config.SellPrice.name" {
+      "AllowBlank": false,
       "Default": "1000"
     }
   },
@@ -16,11 +12,6 @@
       "Action": "Load",
       "Target": "assets/Pepper Rex, assets/Dinosaur",
       "FromFile": "assets/{{TargetWithoutPath}}.png"
-    },    {
-      "LogName": "Load Barn Dinosaur Sounds",
-      "When": {
-        "Sound": "true"
-      }
     },
     {
       "LogName": "Load Barn Dinosaur Data",
@@ -32,7 +23,7 @@
           "House": "Barn",
           "Gender": "Female",
           "PurchasePrice": -1,
-          "SellPrice": "{{Sell Price}}",
+          "SellPrice": "{{config.SellPrice.name}}",
           "ShopTexture": null,
           "ShopSourceRect": {
             "X": 0,
@@ -75,7 +66,7 @@
           "ProfessionForHappinessBoost": 3,
           "ProfessionForQualityBoost": 3,
           "ProfessionForFasterProduce": -1,
-          "Sound": null,
+          "Sound": "croak",
           "BabySound": null,
           "Texture": "assets/Pepper Rex",
           "HarvestedTexture": null,
