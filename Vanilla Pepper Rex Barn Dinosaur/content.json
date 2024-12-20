@@ -30,7 +30,7 @@
         "Pepper Rex": {
           "DisplayName": "[LocalizedText Strings\\Locations:AdventureGuild_KillList_PepperRex]",
           "House": "Barn",
-          "Gender": Female,
+          "Gender": "Female",
           "PurchasePrice": -1,
           "SellPrice": "{{Price}}",
           "ShopTexture": null,
@@ -55,7 +55,7 @@
           "DaysToMature": 7,
           "CanGetPregnant": false,
           "DaysToProduce": 7,
-          "HarvestType": DropOvernight,
+          "HarvestType": "DropOvernight",
           "HarvestTool": null,
           "ProduceItemIds": [
             {
