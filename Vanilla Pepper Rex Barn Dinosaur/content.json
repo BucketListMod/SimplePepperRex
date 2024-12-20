@@ -5,7 +5,7 @@
       "AllowValues": "true, false",
       "Default": "false"
     },
-    "Price" {
+    "Sell Price" {
       "AllowBlank": true,
       "Default": "1000"
     }
@@ -32,7 +32,7 @@
           "House": "Barn",
           "Gender": "Female",
           "PurchasePrice": -1,
-          "SellPrice": "{{Price}}",
+          "SellPrice": "{{Sell Price}}",
           "ShopTexture": null,
           "ShopSourceRect": {
             "X": 0,
