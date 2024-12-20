@@ -1,11 +1,26 @@
 {
   "Format": "2.0.0",
+  "ConfigSchema": {
+    "Sound": {
+      "AllowValues": "true, false",
+      "Default": "false"
+    },
+    "Price" {
+      "AllowBlank": true,
+      "Default": "1000"
+    }
+  },
   "Changes": [
     {
       "LogName": "Load Barn Dinosaur Images",
       "Action": "Load",
       "Target": "assets/Pepper Rex, assets/Dinosaur",
       "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },    {
+      "LogName": "Load Barn Dinosaur Sounds",
+      "When": {
+        "Sound": "true"
+      }
     },
     {
       "LogName": "Load Barn Dinosaur Data",
@@ -15,9 +30,9 @@
         "Pepper Rex": {
           "DisplayName": "[LocalizedText Strings\\Locations:AdventureGuild_KillList_PepperRex]",
           "House": "Barn",
-          "Gender": 0,
+          "Gender": Female,
           "PurchasePrice": -1,
-          "SellPrice": 1000,
+          "SellPrice": "{{Price}}",
           "ShopTexture": null,
           "ShopSourceRect": {
             "X": 0,
@@ -40,7 +55,7 @@
           "DaysToMature": 7,
           "CanGetPregnant": false,
           "DaysToProduce": 7,
-          "HarvestType": 0,
+          "HarvestType": DropOvernight,
           "HarvestTool": null,
           "ProduceItemIds": [
             {
