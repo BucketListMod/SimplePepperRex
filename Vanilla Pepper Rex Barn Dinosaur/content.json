@@ -107,22 +107,10 @@
           "BabiesFollowAdults": false,
           "GrassEatAmount": 4,
           "HappinessDrain": 5,
-          "UpDownPetHitboxTileSize": {
-              "x": 1.5,
-              "y": 2
-          },
-          "LeftRightPetHitboxTileSize": {
-              "x": 2,
-              "y": 2
-          },
-          "BabyUpDownPetHitboxTileSize": {
-              "x": 1,
-              "y": 1
-          },
-          "BabyLeftRightPetHitboxTileSize": {
-              "x": 1,
-              "y": 1
-          },
+          "UpDownPetHitboxTileSize": "1.5, 2",
+          "LeftRightPetHitboxTileSize": "2, 2",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
           "StatToIncrementOnProduce": null,
           "ShowInSummitCredits": false,
           "CustomFields": null
