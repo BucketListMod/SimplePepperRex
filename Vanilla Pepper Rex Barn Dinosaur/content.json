@@ -24,7 +24,7 @@
           "House": "Barn",
           "Gender": "Female",
           "PurchasePrice": -1,
-          "SellPrice": "{{config.SellPrice.name}}",
+          "SellPrice": "{{i18n:config.SellPrice.name}}",
           "ShopTexture": null,
           "ShopSourceRect": {
             "X": 0,
