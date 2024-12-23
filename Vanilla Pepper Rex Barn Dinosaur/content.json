@@ -2,7 +2,7 @@
   "$schema": "https://smapi.io/schemas/content-patcher.json",
   "Format": "2.4.0",
   "ConfigSchema": {
-    "{{i18:config.SellPrice.name}}": {
+    "SellPrice": {
       "AllowBlank": false,
       "Default": "1000"
     }
@@ -24,7 +24,7 @@
           "House": "Barn",
           "Gender": "Female",
           "PurchasePrice": -1,
-          "SellPrice": "{{config.SellPrice.name}}",
+          "SellPrice": "{{SellPrice}}",
           "ShopTexture": null,
           "ShopSourceRect": {
             "X": 0,
