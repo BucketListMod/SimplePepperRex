@@ -1,5 +1,12 @@
 {
-  "Format": "2.0.0",
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "2.4.0",
+  "ConfigSchema": {
+    "SellPrice": {
+      "AllowBlank": false,
+      "Default": "1000"
+    }
+  },
   "Changes": [
     {
       "LogName": "Load Barn Dinosaur Images",
@@ -15,9 +22,9 @@
         "Pepper Rex": {
           "DisplayName": "[LocalizedText Strings\\Locations:AdventureGuild_KillList_PepperRex]",
           "House": "Barn",
-          "Gender": 0,
+          "Gender": "Female",
           "PurchasePrice": -1,
-          "SellPrice": 1000,
+          "SellPrice": "{{SellPrice}}",
           "ShopTexture": null,
           "ShopSourceRect": {
             "X": 0,
@@ -40,7 +47,7 @@
           "DaysToMature": 7,
           "CanGetPregnant": false,
           "DaysToProduce": 7,
-          "HarvestType": 0,
+          "HarvestType": "DropOvernight",
           "HarvestTool": null,
           "ProduceItemIds": [
             {
@@ -60,7 +67,7 @@
           "ProfessionForHappinessBoost": 3,
           "ProfessionForQualityBoost": 3,
           "ProfessionForFasterProduce": -1,
-          "Sound": null,
+          "Sound": "croak",
           "BabySound": null,
           "Texture": "assets/Pepper Rex",
           "HarvestedTexture": null,
@@ -99,7 +106,14 @@
           "CanSwim": false,
           "BabiesFollowAdults": false,
           "GrassEatAmount": 4,
-          "HappinessDrain": 5
+          "HappinessDrain": 5,
+          "UpDownPetHitboxTileSize": "1.5, 2",
+          "LeftRightPetHitboxTileSize": "2, 2",
+          "BabyUpDownPetHitboxTileSize": "1, 1",
+          "BabyLeftRightPetHitboxTileSize": "1, 1",
+          "StatToIncrementOnProduce": null,
+          "ShowInSummitCredits": false,
+          "CustomFields": null
         }
       }
     }

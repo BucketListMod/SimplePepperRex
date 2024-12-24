@@ -1,12 +1,12 @@
 {
+  "$schema": "https://smapi.io/schemas/manifest.json",
   "Name": "Vanilla Pepper Rex Barn Dinosaur",
-   "Author": "BucketList",
-   "Description": "Raise large dinosaurs in barns, functionally identical to small ones in coops.",
-   "Version": "1.0.0",
-   "UniqueID": "BucketList.SimplePepperRex", 
- 
-   "ContentPackFor": {
-       "UniqueID": "Pathoschild.ContentPatcher",
-       "MinimumVersion": "1.30.4"
-    }
+  "Author": "BucketList",
+  "Description": "Raise large dinosaurs in barns, functionally identical to small ones in coops.",
+  "Version": "1.0.1",
+  "UniqueID": "BucketList.SimplePepperRex", 
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "1.30.4"
+  }
 }
