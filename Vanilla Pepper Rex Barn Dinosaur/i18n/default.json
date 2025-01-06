@@ -1,3 +1,5 @@
 {
-	"config.SellPrice.name": "Sell Price"
+	"config.PriceAnimal.name": "Sell Price (Animal)",
+	"config.MayoBook.name": "Scaling Mayonnaise?",
+	"config.MayoBook.description": "If the [[LocalizedText Strings\\Objects:Book_Artifact_Name]] applies to [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]]."
 }

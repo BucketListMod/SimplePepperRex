@@ -1,3 +1,5 @@
 {
-	"config.SellPrice.name": "Satış Fiyatı"
+	"config.PriceAnimal.name": "Satış Fiyatı (Hayvan)",
+	"config.MayoBook.name": "Mayonez Ölçeklendirme?",
+	"config.MayoBook.description": "[[LocalizedText Strings\\Objects:Book_Artifact_Name]] [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]] için geçerliyse."
 }

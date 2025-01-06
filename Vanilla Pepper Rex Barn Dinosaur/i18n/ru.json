@@ -1,3 +1,5 @@
 {
-	"config.SellPrice.name": "Цена продажи"
+	"config.PriceAnimal.name": "Продать Прайс (Животное)",
+	"config.MayoBook.name": "Масштабирование Майонеза?",
+	"config.MayoBook.description": "Если [[LocalizedText Strings\\Objects:Book_Artifact_Name]] применяется к [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]]."
 }

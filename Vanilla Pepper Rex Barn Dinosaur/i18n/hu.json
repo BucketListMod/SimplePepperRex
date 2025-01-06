@@ -1,3 +1,5 @@
 {
-	"config.SellPrice.name": "Eladási Ár"
+	"config.PriceAnimal.name": "Eladási ár (Állat)",
+	"config.MayoBook.name": "Majonéz méretezése?",
+	"config.MayoBook.description": "Ha a [[LocalizedText Strings\\Objects:Book_Artifact_Name]] vonatkozik a [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]]."
 }

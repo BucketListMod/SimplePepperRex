@@ -1,3 +1,5 @@
 {
-	"config.SellPrice.name": "판매 가격"
+	"config.PriceAnimal.name": "판매 가격 (동물)",
+	"config.MayoBook.name": "Mayonnaise 스케일링?",
+	"config.MayoBook.description": "[[LocalizedText Strings\\Objects:Book_Artifact_Name]] 이 [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]] 에 적용되는 경우."
 }

@@ -2,9 +2,27 @@
 	"$schema": "https://smapi.io/schemas/content-patcher.json",
 	"Format": "2.4.4",
 	"ConfigSchema": {
-		"SellPrice": {
+		"KeepCoop": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "{{i18n: config.KeepCoop.description}}"
+		},
+		"PriceAnimal": {
 			"AllowBlank": false,
-			"Default": "1000"
+			"Default": "3000"
+		},
+		"PriceEgg": {
+			"AllowBlank": false,
+			"Default": "350"
+		},
+		"PriceMayo": {
+			"AllowBlank": false,
+			"Default": "800"
+		},
+		"MayoBook": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "{{i18n: config.MayoBook.description}}"
 		}
 	},
 	"Changes": [
@@ -24,7 +42,7 @@
 					"House": "Barn",
 					"Gender": "Female",
 					"PurchasePrice": -1,
-					"SellPrice": "{{SellPrice}}",
+					"SellPrice": "{{PriceAnimal}}",
 					"ShopTexture": null,
 					"ShopSourceRect": {
 						"X": 0,
@@ -114,6 +132,51 @@
 					"StatToIncrementOnProduce": null,
 					"ShowInSummitCredits": false,
 					"CustomFields": null
+				}
+			}
+		},
+		{
+			"LogName": "Delete Coop Dinosaur Data",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"When": {
+				"KeepCoop": "false"
+			},
+			"Entries": {
+				"Dinosaur": null
+			}
+		},
+		{
+			"LogName": "Change Dinosaur Egg Price",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"107": {
+    				"Price": "{{PriceEgg}}"
+  				}
+			}
+		},
+		{
+			"LogName": "Change Dinosaur Mayo Price",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"807": {
+    				"Price": "{{PriceMayo}}"
+  				}
+			}
+		},
+		{
+			"LogName": "Multiply Dinosaur Mayo Price",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"When": {
+				"HasWalletItem": "Book_Artifact",
+				"MayoBook": "true"
+			},
+			"Entries": {
+				"807": {
+					"Price": "{{Query: {{PriceMayo}} * 3}}"
 				}
 			}
 		}
