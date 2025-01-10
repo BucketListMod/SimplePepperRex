@@ -1,5 +1,4 @@
 {
-	"$schema": "https://smapi.io/schemas/manifest.json",
 	"Name": "Vanilla Pepper Rex Barn Dinosaur",
 	"Author": "BucketList",
 	"Description": "Raise large dinosaurs in barns, functionally identical to small ones in coops.",
