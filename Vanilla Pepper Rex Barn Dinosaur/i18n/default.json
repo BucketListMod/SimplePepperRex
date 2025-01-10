@@ -1,9 +1,9 @@
 {
 	"config.KeepCoop.name": "Coop Dinosaurs",
 	"config.KeepCoop.description": "Whether you are able to incubate small dinosaurs in coops.",
-	"config.PriceAnimal.name": "Sell Price (Animal) $",
-	"config.PriceEgg.name": "Sell Price (Egg) $",
-	"config.PriceMayo.name": "Sell Price (Mayonnaise) $",
+	"config.PriceAnimal.name": "Sell Price (Animal)",
+	"config.PriceEgg.name": "Sell Price (Egg)",
+	"config.PriceMayo.name": "Sell Price (Mayonnaise)",
 	"config.MayoBook.name": "Mayonnaise Price Scales",
-	"config.MayoBook.description": "If the Treasure Appraisal Guide ($x3) applies to Dinosaur Mayonnaise."
+	"config.MayoBook.description": "If the Treasure Appraisal Guide (Price × 3) applies to Dinosaur Mayonnaise."
 }
