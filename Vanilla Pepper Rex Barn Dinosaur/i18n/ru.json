@@ -1,5 +1,9 @@
 {
-	"config.PriceAnimal.name": "Продать Прайс (Животное)",
-	"config.MayoBook.name": "Масштабирование Майонеза?",
-	"config.MayoBook.description": "Если [[LocalizedText Strings\\Objects:Book_Artifact_Name]] применяется к [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]]."
+	"config.KeepCoop.name": "Курятник динозавров",
+	"config.KeepCoop.description": "Можно ли вы инкубировать маленьких динозавров в курятниках.",
+	"config.PriceAnimal.name": "Цена продажи (животное)",
+	"config.PriceEgg.name": "Цена продажи (яйцо)",
+	"config.PriceMayo.name": "Цена продажи (майонез)",
+	"config.MayoBook.name": "Руководство по оценке сокровищ, майонез",
+	"config.MayoBook.description": "Если Руководство по оценке сокровищ (цена × 3) применимо к майонезу с динозаврами."
 }
