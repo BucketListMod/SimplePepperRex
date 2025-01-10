@@ -60,7 +60,7 @@
 						"107"
 					],
 					"IncubationTime": 18000,
-					"IncubatorParentSheetOffset": 1,
+					"IncubatorParentSheetOffset": 13,
 					"BirthText": "[LocalizedText Strings\\Locations:AnimalHouse_Incubator_Hatch_DinosaurEgg]",
 					"DaysToMature": 7,
 					"CanGetPregnant": false,
@@ -136,34 +136,75 @@
 			}
 		},
 		{
-			"LogName": "Delete Coop Dinosaur Data",
+			"LogName": "Load Incubator Image",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Dino Incubator.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 48,
+				"Y": 1056,
+				"Width": 16,
+				"Height": 32
+			},
+			"PatchMode": "Replace",
+		},
+		{
+			"LogName": "Make Coop Dinosaur Unhatchable",
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
 			"When": {
 				"KeepCoop": "false"
 			},
-			"Entries": {
-				"Dinosaur": null
+			"Fields": {
+				"Dinosaur": {
+					"EggItemIds": null
+				}
 			}
 		},
 		{
 			"LogName": "Change Dinosaur Egg Price",
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"Entries": {
+			"Fields": {
 				"107": {
-    				"Price": "{{PriceEgg}}"
-  				}
+					"Price": "{{PriceEgg}}"
+				}
 			}
 		},
 		{
 			"LogName": "Change Dinosaur Mayo Price",
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"Entries": {
+			"Fields": {
 				"807": {
-    				"Price": "{{PriceMayo}}"
-  				}
+					"Price": "{{PriceMayo}}"
+				}
+			}
+		},
+		{
+			"LogName": "Multiply Dinosaur Mayo Price Flag",
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"MayoBookMailFlag": {
+					"Id": "MayoBookMailFlag",
+					"Trigger": "LocationChanged",
+					"Condition": "PLAYER_STAT Current Book_Artifact 1",
+					"SkipPermanentlyCondition": null,
+					"HostOnly": false,
+					"Action": null,
+					"Actions": [
+						"AddMail Current MayoBookMailFlag Received"
+					],
+					"CustomFields": null,
+					"MarkActionApplied": true
+				}
 			}
 		},
 		{
@@ -171,10 +212,10 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"When": {
-				"HasWalletItem": "Book_Artifact",
+				"HasFlag": "MayoBookMailFlag",
 				"MayoBook": "true"
 			},
-			"Entries": {
+			"Fields": {
 				"807": {
 					"Price": "{{Query: {{PriceMayo}} * 3}}"
 				}
