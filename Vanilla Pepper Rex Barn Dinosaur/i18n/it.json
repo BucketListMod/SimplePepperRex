@@ -1,5 +1,9 @@
 {
+	"config.KeepCoop.name": "Dinosauri Coop",
+	"config.KeepCoop.description": "Se sei in grado di incubare piccoli dinosauri in cooperative.",
 	"config.PriceAnimal.name": "Prezzo di vendita (animale)",
-	"config.MayoBook.name": "Ridimensionare la maionese?",
-	"config.MayoBook.description": "Se [[LocalizedText Strings\\Objects:Book_Artifact_Name]] si applica a [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]]."
+	"config.PriceEgg.name": "Prezzo di vendita (uovo)",
+	"config.PriceMayo.name": "Prezzo di vendita (maionese)",
+	"config.MayoBook.name": "Tesori antichi: guida all'estimazione Maionese",
+	"config.MayoBook.description": "Se la Tesori antichi: guida all'estimazione (Prezzo × 3) si applica alla maionese ai dinosauri."
 }
