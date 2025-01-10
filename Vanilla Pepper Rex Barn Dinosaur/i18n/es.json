@@ -1,5 +1,9 @@
 {
-	"config.PriceAnimal.name": "Precio de Venta (Animal)",
-	"config.MayoBook.name": "¿Escalando Mayonesa?",
-	"config.MayoBook.description": "Si el [[LocalizedText Strings\\Objects:Book_Artifact_Name]] se aplica a [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]]."
+	"config.KeepCoop.name": "Coop Dinosaurios",
+	"config.KeepCoop.description": "Si puedes incubar pequeños dinosaurios en cooperativas.",
+	"config.PriceAnimal.name": "Precio de venta (Animal)",
+	"config.PriceEgg.name": "Precio de venta (Huevo)",
+	"config.PriceMayo.name": "Precio de venta (mayonesa)",
+	"config.MayoBook.name": "Mayonesa Tesoros Antiguos: Guía de Costos",
+	"config.MayoBook.description": "Si la Tesoros Antiguos: Guía de Costos (Precio × 3) se aplica a la mayonesa de dinosaurio."
 }
