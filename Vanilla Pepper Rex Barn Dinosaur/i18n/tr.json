@@ -1,5 +1,9 @@
 {
+	"config.KeepCoop.name": "Coop Dinozorları",
+	"config.KeepCoop.description": "Küçük dinozorları kümeslerde kuluçkaya yatırıp kuluçkalayamayacağınız.",
 	"config.PriceAnimal.name": "Satış Fiyatı (Hayvan)",
-	"config.MayoBook.name": "Mayonez Ölçeklendirme?",
-	"config.MayoBook.description": "[[LocalizedText Strings\\Objects:Book_Artifact_Name]] [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]] için geçerliyse."
+	"config.PriceEgg.name": "Satış Fiyatı (Yumurta)",
+	"config.PriceMayo.name": "Satış Fiyatı (Mayonez)",
+	"config.MayoBook.name": "Hazine Değerlendirme Rehberi Mayonez",
+	"config.MayoBook.description": "Hazine Değerlendirme Rehberi (Fiyat × 3) Dinozor Mayonezi için geçerliyse."
 }
