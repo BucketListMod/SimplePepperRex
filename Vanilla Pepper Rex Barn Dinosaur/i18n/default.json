@@ -4,6 +4,6 @@
 	"config.PriceAnimal.name": "Sell Price (Animal)",
 	"config.PriceEgg.name": "Sell Price (Egg)",
 	"config.PriceMayo.name": "Sell Price (Mayonnaise)",
-	"config.MayoBook.name": "Mayonnaise Price Scales",
+	"config.MayoBook.name": "Treasure Appraisal Guide Mayonnaise",
 	"config.MayoBook.description": "If the Treasure Appraisal Guide (Price × 3) applies to Dinosaur Mayonnaise."
 }
