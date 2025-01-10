@@ -1,5 +1,9 @@
 {
+	"config.KeepCoop.name": "鸡笼恐龙",
+	"config.KeepCoop.description": "是否可以在鸡舍里孵化小恐龙。",
 	"config.PriceAnimal.name": "售价（动物）",
-	"config.MayoBook.name": "缩放蛋黄酱？",
-	"config.MayoBook.description": "如果[[LocalizedText Strings\\Objects:Book_Artifact_Name]]适用于[[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]]."
+	"config.PriceEgg.name": "售价（鸡蛋）",
+	"config.PriceMayo.name": "售价（蛋黄酱）",
+	"config.MayoBook.name": "蛋黄酱古代珍宝鉴定指南",
+	"config.MayoBook.description": "如果古代珍宝鉴定指南（价格×3）适用于恐龙蛋黄酱。"
 }
