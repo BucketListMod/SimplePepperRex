@@ -1,5 +1,9 @@
 {
+	"config.KeepCoop.name": "Coop-Dinosaurier",
+	"config.KeepCoop.description": "Ob Sie kleine Dinosaurier in Ställen ausbrüten können.",
 	"config.PriceAnimal.name": "Verkaufspreis (Tier)",
-	"config.MayoBook.name": "Scaling Mayonnaise?",
-	"config.MayoBook.description": "Wenn die [[LocalizedText Strings\\Objects:Book_Artifact_Name]] für [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]]."
+	"config.PriceEgg.name": "Verkaufspreis (Ei)",
+	"config.PriceMayo.name": "Verkaufspreis (Mayonnaise)",
+	"config.MayoBook.name": "Antike Schätze: Leitfaden für die Schätzung Mayonnaise",
+	"config.MayoBook.description": "Wenn der Antike Schätze: Leitfaden für die Schätzung (Preis × 3) für Dinosaurier-Mayonnaise gilt."
 }
