@@ -27,6 +27,25 @@
 	},
 	"Changes": [
 		{
+			"LogName": "Load Incubator Image",
+			"Action": "EditImage",
+			"Target": "TileSheets/Craftables",
+			"FromFile": "assets/Dino Incubator.png",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 16,
+				"Height": 32
+			},
+			"ToArea": {
+				"X": 48,
+				"Y": 1056,
+				"Width": 16,
+				"Height": 32
+			},
+			"PatchMode": "Replace",
+		},
+		{
 			"LogName": "Load Barn Dinosaur Images",
 			"Action": "Load",
 			"Target": "assets/Pepper Rex, assets/Dinosaur",
@@ -134,25 +153,6 @@
 					"CustomFields": null
 				}
 			}
-		},
-		{
-			"LogName": "Load Incubator Image",
-			"Action": "EditImage",
-			"Target": "TileSheets/Craftables",
-			"FromFile": "assets/Dino Incubator.png",
-			"FromArea": {
-				"X": 0,
-				"Y": 0,
-				"Width": 16,
-				"Height": 32
-			},
-			"ToArea": {
-				"X": 48,
-				"Y": 1056,
-				"Width": 16,
-				"Height": 32
-			},
-			"PatchMode": "Replace",
 		},
 		{
 			"LogName": "Make Coop Dinosaur Unhatchable",
