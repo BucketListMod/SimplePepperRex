@@ -1,5 +1,9 @@
 {
-	"config.PriceAnimal.name": "Eladási ár (Állat)",
-	"config.MayoBook.name": "Majonéz méretezése?",
-	"config.MayoBook.description": "Ha a [[LocalizedText Strings\\Objects:Book_Artifact_Name]] vonatkozik a [[LocalizedText Strings\\Objects:DinosaurMayonnaise_Name]]."
+	"config.KeepCoop.name": "Coop Dinosaurs",
+	"config.KeepCoop.description": "Képes-e kis dinoszauruszokat tenyészteni coopokban.",
+	"config.PriceAnimal.name": "Eladási ár (állat)",
+	"config.PriceEgg.name": "Eladási ár (Egg)",
+	"config.PriceMayo.name": "Eladási ár (majonéz)",
+	"config.MayoBook.name": "Ősi kincsek: Értékbecslési útmutató majonéz",
+	"config.MayoBook.description": "Ha a Ősi kincsek: Értékbecslési útmutató (ár × 3) a dinoszaurusz majonézre vonatkozik."
 }
