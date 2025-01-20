@@ -1,3 +1,9 @@
 {
-    "config.SellPrice.name": "Satış Fiyatı"
+	"config.KeepCoop.name": "Coop Dinozorları",
+	"config.KeepCoop.description": "Küçük dinozorları kümeslerde kuluçkaya yatırıp kuluçkalayamayacağınız.",
+	"config.PriceAnimal.name": "Satış Fiyatı (Hayvan)",
+	"config.PriceEgg.name": "Satış Fiyatı (Yumurta)",
+	"config.PriceMayo.name": "Satış Fiyatı (Mayonez)",
+	"config.MayoBook.name": "Hazine Değerlendirme Rehberi \n Mayonez",
+	"config.MayoBook.description": "Hazine Değerlendirme Rehberi (Fiyat × 3) Dinozor Mayonezi için geçerliyse."
 }

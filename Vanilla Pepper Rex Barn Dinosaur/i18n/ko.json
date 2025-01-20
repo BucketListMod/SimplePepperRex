@@ -1,3 +1,9 @@
 {
-    "config.SellPrice.name": "판매 가격"
+	"config.KeepCoop.name": "쿱 공룡",
+	"config.KeepCoop.description": "우리에서 작은 공룡을 부화시킬 수 있는지 여부.",
+	"config.PriceAnimal.name": "판매 가격(동물)",
+	"config.PriceEgg.name": "판매 가격(계란)",
+	"config.PriceMayo.name": "판매 가격(마요네즈)",
+	"config.MayoBook.name": "고대의 보물: 감정 가이드 마요네즈",
+	"config.MayoBook.description": "고대의 보물: 감정 가이드(가격 × 3)가 공룡 마요네즈 적용되는 경우."
 }
