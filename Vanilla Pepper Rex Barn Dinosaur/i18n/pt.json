@@ -4,6 +4,8 @@
 	"config.PriceAnimal.name": "Preço de Venda (Animal)",
 	"config.PriceEgg.name": "Preço de venda (ovo)",
 	"config.PriceMayo.name": "Preço de venda (maionese)",
+	"config.DaysToMature.name": "Dias para Maduros",
+	"config.DaysToProduce.name": "Dias para Produzir",
 	"config.MayoBook.name": "Tesouros Antigos: \n Guia de Avaliação \n Maionese",
 	"config.MayoBook.description": "Se o Tesouros Antigos: Guia de Avaliação (Preço × 3) se aplica à Maionese de Dinossauro."
 }

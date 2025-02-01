@@ -4,6 +4,8 @@
 	"config.PriceAnimal.name": "售价（动物）",
 	"config.PriceEgg.name": "售价（鸡蛋）",
 	"config.PriceMayo.name": "售价（蛋黄酱）",
+	"config.DaysToMature.name": "成熟的日子",
+	"config.DaysToProduce.name": "生产天数",
 	"config.MayoBook.name": "蛋黄酱古代珍宝鉴定指南",
 	"config.MayoBook.description": "如果古代珍宝鉴定指南（价格×3）适用于恐龙蛋黄酱。"
 }

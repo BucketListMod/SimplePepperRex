@@ -4,6 +4,8 @@
 	"config.PriceAnimal.name": "Satış Fiyatı (Hayvan)",
 	"config.PriceEgg.name": "Satış Fiyatı (Yumurta)",
 	"config.PriceMayo.name": "Satış Fiyatı (Mayonez)",
+	"config.DaysToMature.name": "Olgun Günler",
+	"config.DaysToProduce.name": "Üretilecek Günler",
 	"config.MayoBook.name": "Hazine Değerlendirme Rehberi \n Mayonez",
 	"config.MayoBook.description": "Hazine Değerlendirme Rehberi (Fiyat × 3) Dinozor Mayonezi için geçerliyse."
 }

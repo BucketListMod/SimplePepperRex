@@ -18,6 +18,14 @@
 			"AllowBlank": false,
 			"Default": "800"
 		},
+		"DaysToMature": {
+			"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+			"Default": "7"
+		},
+		"DaysToProduce": {
+			"AllowValues": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15",
+			"Default": "7"
+		},
 		"MayoBook": {
 			"AllowValues": "true, false",
 			"Default": "true",
@@ -42,7 +50,7 @@
 				"Width": 16,
 				"Height": 32
 			},
-			"PatchMode": "Replace",
+			"PatchMode": "Replace"
 		},
 		{
 			"LogName": "Load Barn Dinosaur Images",
@@ -80,9 +88,9 @@
 					"IncubationTime": 18000,
 					"IncubatorParentSheetOffset": 13,
 					"BirthText": "[LocalizedText Strings\\Locations:AnimalHouse_Incubator_Hatch_DinosaurEgg]",
-					"DaysToMature": 7,
+					"DaysToMature": "{{DaysToMature}}",
 					"CanGetPregnant": false,
-					"DaysToProduce": 7,
+					"DaysToProduce": "{{DaysToProduce}}",
 					"HarvestType": "DropOvernight",
 					"HarvestTool": null,
 					"ProduceItemIds": [

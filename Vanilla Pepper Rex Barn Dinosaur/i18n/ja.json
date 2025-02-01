@@ -4,6 +4,8 @@
 	"config.PriceAnimal.name": "販売価格 (動物)",
 	"config.PriceEgg.name": "販売価格 (卵)",
 	"config.PriceMayo.name": "販売価格 (マヨネーズ)",
+	"config.DaysToMature.name": "成熟する日",
+	"config.DaysToProduce.name": "制作する日",
 	"config.MayoBook.name": "古代の秘宝鑑定ガイドマヨネーズ",
 	"config.MayoBook.description": "恐竜マヨネーズに古代の秘宝鑑定ガイド(価格×3)が適用される場合。"
 }
