@@ -4,6 +4,8 @@
 	"config.PriceAnimal.name": "판매 가격(동물)",
 	"config.PriceEgg.name": "판매 가격(계란)",
 	"config.PriceMayo.name": "판매 가격(마요네즈)",
+	"config.DaysToMature.name": "성숙한 날",
+	"config.DaysToProduce.name": "제작 일",
 	"config.MayoBook.name": "고대의 보물: 감정 가이드 마요네즈",
 	"config.MayoBook.description": "고대의 보물: 감정 가이드(가격 × 3)가 공룡 마요네즈 적용되는 경우."
 }
