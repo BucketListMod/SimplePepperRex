@@ -32,8 +32,8 @@
 			"Description": "{{i18n: config.MayoBook.description}}"
 		},
 		"Meat": {
-			"AllowValues": "Beef, Pork, Mutton, Ostrich, Chicken, Duck, Rabbit",
-			"Default": "Pork",
+			"AllowValues": "Beef, Chicken, Duck, Mutton, Pork, Rabbit, Ostrich",
+			"Default": "Beef",
 			"Section": "AnimalHusbandry",
 			"Description": "{{i18n: config.Meat.description}}"
 		},
@@ -45,7 +45,7 @@
 		},
 		"Maximum": {
 			"AllowBlank": false,
-			"Default": "11",
+			"Default": "13",
 			"Section":"AnimalHusbandry",
 			"Description": "{{i18n: config.Maximum.description}}"
 		},
@@ -182,13 +182,13 @@
 					"StatToIncrementOnProduce": null,
 					"ShowInSummitCredits": false,
 					"CustomFields": {
-						"meatIndex": "640"
+						"meatIndex": 639
 					}
 				}
 			}
 		},
 		{
-			"LogName": "Beef",
+			"LogName": "Pork",
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
 			"TargetField": [
@@ -197,7 +197,7 @@
 				"meatIndex"
 			],
 			"Entries": {
-				"640": "639"
+				"639": 640
 			},
 			"When": {
 				"Meat": "Beef"
@@ -213,7 +213,7 @@
 				"meatIndex"
 			],
 			"Entries": {
-				"640": "644"
+				"640": 644
 			},
 			"When": {
 				"Meat": "Mutton"
@@ -229,7 +229,7 @@
 				"meatIndex"
 			],
 			"Entries": {
-				"640": "620"
+				"640": 620
 			},
 			"When": {
 				"Meat": "Ostrich"
@@ -245,7 +245,7 @@
 				"meatIndex"
 			],
 			"Entries": {
-				"640": "641"
+				"640": 641
 			},
 			"When": {
 				"Meat": "Chicken"
@@ -261,7 +261,7 @@
 				"meatIndex"
 			],
 			"Entries": {
-				"640": "642"
+				"640": 642
 			},
 			"When": {
 				"Meat": "Duck"
@@ -277,7 +277,7 @@
 				"meatIndex"
 			],
 			"Entries": {
-				"640": "644"
+				"640": 644
 			},
 			"When": {
 				"Meat": "Rabbit"
