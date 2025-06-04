@@ -1,0 +1,22 @@
+{
+	"Name": "[AHM] Vanilla Pepper Rex Barn Dinosaur",
+	"Author": "BucketList",
+	"Version": "1.2.0",
+	"Description": "Adds configuration of Vanilla Pepper Rex Barn Dinosaur for Animal Husbandry Mod.",
+	"UniqueID": "BucketList.SimplePepperRexAnimalHusbandry",
+	"MinimumApiVersion": "2.11.2",
+	"UpdateKeys": [
+		"Nexus:30026"
+	],
+	"Dependencies": [
+		{
+			"UniqueID": "BucketList.SimplePepperRex"
+		},
+		{
+			"UniqueID": "Spiderbuttons.CMCT"
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ANIMALHUSBANDRYMOD"
+	}
+}

@@ -7,5 +7,14 @@
 	"config.DaysToMature.name": "Dias para Maduros",
 	"config.DaysToProduce.name": "Dias para Produzir",
 	"config.MayoBook.name": "Tesouros Antigos: \n Guia de Avaliação \n Maionese",
-	"config.MayoBook.description": "Se o Tesouros Antigos: Guia de Avaliação (Preço × 3) se aplica à Maionese de Dinossauro."
+	"config.MayoBook.description": "Se o Tesouros Antigos: Guia de Avaliação (Preço × 3) se aplica à Maionese de Dinossauro.",
+	"config.section.AnimalHusbandry.name": "Animal Husbandry Mod Settings",
+	"config.section.AnimalHusbandry.description": "Settings relating to Dingus' \"Animal Husbandry Mod\"",
+	"config.Meat.name": "Meat Type",
+	"config.Minimum.name": "Minimum Meat",
+	"config.Minimum.description": "Minimum Meat × Meat Price ≈ Sell Price (Animal) × 0.3",
+	"config.Maximum.name": "Maximum Meat",
+	"config.Maximum.description": "Minimum Meat × Meat Price ≈ Sell Price (Animal) × 1.3",
+	"config.Treat.name": "Days Between Treats",
+	"config.Treat.description": "Minimum Days ≈ Sell Price (Animal) ÷ 2500"
 }

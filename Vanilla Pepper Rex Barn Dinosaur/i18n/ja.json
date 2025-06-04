@@ -7,5 +7,14 @@
 	"config.DaysToMature.name": "成熟する日",
 	"config.DaysToProduce.name": "制作する日",
 	"config.MayoBook.name": "古代の秘宝鑑定ガイドマヨネーズ",
-	"config.MayoBook.description": "恐竜マヨネーズに古代の秘宝鑑定ガイド(価格×3)が適用される場合。"
+	"config.MayoBook.description": "恐竜マヨネーズに古代の秘宝鑑定ガイド(価格×3)が適用される場合。",
+	"config.section.AnimalHusbandry.name": "Animal Husbandry Mod Settings",
+	"config.section.AnimalHusbandry.description": "Settings relating to Dingus' \"Animal Husbandry Mod\"",
+	"config.Meat.name": "Meat Type",
+	"config.Minimum.name": "Minimum Meat",
+	"config.Minimum.description": "Minimum Meat × Meat Price ≈ Sell Price (Animal) × 0.3",
+	"config.Maximum.name": "Maximum Meat",
+	"config.Maximum.description": "Minimum Meat × Meat Price ≈ Sell Price (Animal) × 1.3",
+	"config.Treat.name": "Days Between Treats",
+	"config.Treat.description": "Minimum Days ≈ Sell Price (Animal) ÷ 2500"
 }

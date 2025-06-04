@@ -1,0 +1,16 @@
+[
+	{
+		"Name": "Pepper Rex",
+		"MinimalNumberOfMeat": "{{Minimum}}",
+		"MaximumNumberOfMeat": "{{Maximum}}",
+		"MinimumDaysBetweenTreats": "{{Treat}}",
+		"LikedTreats": [
+			78,
+			259,
+			698,
+			454
+		],
+		"MinimumDaysUtillBirth": null,
+		"CanUseDeluxeItemForPregnancy": false
+	}
+]

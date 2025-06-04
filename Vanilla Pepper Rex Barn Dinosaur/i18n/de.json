@@ -7,5 +7,14 @@
 	"config.DaysToMature.name": "Tage bis zur Reife",
 	"config.DaysToProduce.name": "Tage zum Produzieren",
 	"config.MayoBook.name": "Antike Schätze: \n Leitfaden für die Schätzung \n Mayonnaise",
-	"config.MayoBook.description": "Wenn der Antike Schätze: Leitfaden für die Schätzung (Preis × 3) für Dinosaurier Mayonnaise gilt."
+	"config.MayoBook.description": "Wenn der Antike Schätze: Leitfaden für die Schätzung (Preis × 3) für Dinosaurier Mayonnaise gilt.",
+	"config.section.AnimalHusbandry.name": "Animal Husbandry Mod Settings",
+	"config.section.AnimalHusbandry.description": "Settings relating to Dingus' \"Animal Husbandry Mod\"",
+	"config.Meat.name": "Meat Type",
+	"config.Minimum.name": "Minimum Meat",
+	"config.Minimum.description": "Minimum Meat × Meat Price ≈ Sell Price (Animal) × 0.3",
+	"config.Maximum.name": "Maximum Meat",
+	"config.Maximum.description": "Minimum Meat × Meat Price ≈ Sell Price (Animal) × 1.3",
+	"config.Treat.name": "Days Between Treats",
+	"config.Treat.description": "Minimum Days ≈ Sell Price (Animal) ÷ 2500"
 }

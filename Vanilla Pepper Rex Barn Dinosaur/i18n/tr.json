@@ -7,5 +7,14 @@
 	"config.DaysToMature.name": "Olgun Günler",
 	"config.DaysToProduce.name": "Üretilecek Günler",
 	"config.MayoBook.name": "Hazine Değerlendirme Rehberi \n Mayonez",
-	"config.MayoBook.description": "Hazine Değerlendirme Rehberi (Fiyat × 3) Dinozor Mayonezi için geçerliyse."
+	"config.MayoBook.description": "Hazine Değerlendirme Rehberi (Fiyat × 3) Dinozor Mayonezi için geçerliyse.",
+	"config.section.AnimalHusbandry.name": "Animal Husbandry Mod Settings",
+	"config.section.AnimalHusbandry.description": "Settings relating to Dingus' \"Animal Husbandry Mod\"",
+	"config.Meat.name": "Meat Type",
+	"config.Minimum.name": "Minimum Meat",
+	"config.Minimum.description": "Minimum Meat × Meat Price ≈ Sell Price (Animal) × 0.3",
+	"config.Maximum.name": "Maximum Meat",
+	"config.Maximum.description": "Minimum Meat × Meat Price ≈ Sell Price (Animal) × 1.3",
+	"config.Treat.name": "Days Between Treats",
+	"config.Treat.description": "Minimum Days ≈ Sell Price (Animal) ÷ 2500"
 }
