@@ -193,14 +193,13 @@
 			"Target": "Data/FarmAnimals",
 			"TargetField": [
 				"Pepper Rex",
-				"CustomFields",
-				"meatIndex"
+				"CustomFields"
 			],
 			"Entries": {
-				"639": 640
+				"meatIndex": 640
 			},
 			"When": {
-				"Meat": "Beef"
+				"Meat": "Pork"
 			}
 		},
 		{
@@ -209,11 +208,10 @@
 			"Target": "Data/FarmAnimals",
 			"TargetField": [
 				"Pepper Rex",
-				"CustomFields",
-				"meatIndex"
+				"CustomFields"
 			],
 			"Entries": {
-				"640": 644
+				"meatIndex": 644
 			},
 			"When": {
 				"Meat": "Mutton"
@@ -225,11 +223,10 @@
 			"Target": "Data/FarmAnimals",
 			"TargetField": [
 				"Pepper Rex",
-				"CustomFields",
-				"meatIndex"
+				"CustomFields"
 			],
 			"Entries": {
-				"640": 620
+				"meatIndex": 620
 			},
 			"When": {
 				"Meat": "Ostrich"
@@ -241,11 +238,10 @@
 			"Target": "Data/FarmAnimals",
 			"TargetField": [
 				"Pepper Rex",
-				"CustomFields",
-				"meatIndex"
+				"CustomFields"
 			],
 			"Entries": {
-				"640": 641
+				"meatIndex": 641
 			},
 			"When": {
 				"Meat": "Chicken"
@@ -257,11 +253,10 @@
 			"Target": "Data/FarmAnimals",
 			"TargetField": [
 				"Pepper Rex",
-				"CustomFields",
-				"meatIndex"
+				"CustomFields"
 			],
 			"Entries": {
-				"640": 642
+				"meatIndex": 642
 			},
 			"When": {
 				"Meat": "Duck"
@@ -273,11 +268,10 @@
 			"Target": "Data/FarmAnimals",
 			"TargetField": [
 				"Pepper Rex",
-				"CustomFields",
-				"meatIndex"
+				"CustomFields"
 			],
 			"Entries": {
-				"640": 644
+				"meatIndex": 644
 			},
 			"When": {
 				"Meat": "Rabbit"
