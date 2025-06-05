@@ -8,7 +8,7 @@
 		},
 		"PriceAnimal": {
 			"AllowBlank": false,
-			"Default": "3000"
+			"Default": "1000"
 		},
 		"PriceEgg": {
 			"AllowBlank": false,
@@ -30,6 +30,30 @@
 			"AllowValues": "true, false",
 			"Default": "true",
 			"Description": "{{i18n: config.MayoBook.description}}"
+		},
+		"Meat": {
+			"AllowValues": "Beef, Chicken, Duck, Mutton, Pork, Rabbit, Ostrich",
+			"Default": "Beef",
+			"Section": "AnimalHusbandry",
+			"Description": "{{i18n: config.Meat.description}}"
+		},
+		"Minimum": {
+			"AllowBlank": false,
+			"Default": "3",
+			"Section":"AnimalHusbandry",
+			"Description":"{{i18n: config.Minimum.description}}"
+		},
+		"Maximum": {
+			"AllowBlank": false,
+			"Default": "13",
+			"Section":"AnimalHusbandry",
+			"Description": "{{i18n: config.Maximum.description}}"
+		},
+		"Treat": {
+			"AllowBlank": false,
+			"Default": "4",
+			"Section":"AnimalHusbandry",
+			"Description": "{{i18n: config.Treat.description}}"
 		}
 	},
 	"Changes": [
@@ -157,8 +181,100 @@
 					"BabyLeftRightPetHitboxTileSize": "1, 1",
 					"StatToIncrementOnProduce": null,
 					"ShowInSummitCredits": false,
-					"CustomFields": null
+					"CustomFields": {
+						"meatIndex": 639
+					}
 				}
+			}
+		},
+		{
+			"LogName": "Pork",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [
+				"Pepper Rex",
+				"CustomFields"
+			],
+			"Entries": {
+				"meatIndex": 640
+			},
+			"When": {
+				"Meat": "Pork"
+			}
+		},
+		{
+			"LogName": "Mutton",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [
+				"Pepper Rex",
+				"CustomFields"
+			],
+			"Entries": {
+				"meatIndex": 644
+			},
+			"When": {
+				"Meat": "Mutton"
+			}
+		},
+		{
+			"LogName": "Ostrich",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [
+				"Pepper Rex",
+				"CustomFields"
+			],
+			"Entries": {
+				"meatIndex": 620
+			},
+			"When": {
+				"Meat": "Ostrich"
+			}
+		},
+		{
+			"LogName": "Chicken",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [
+				"Pepper Rex",
+				"CustomFields"
+			],
+			"Entries": {
+				"meatIndex": 641
+			},
+			"When": {
+				"Meat": "Chicken"
+			}
+		},
+		{
+			"LogName": "Duck",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [
+				"Pepper Rex",
+				"CustomFields"
+			],
+			"Entries": {
+				"meatIndex": 642
+			},
+			"When": {
+				"Meat": "Duck"
+			}
+		},
+		{
+			"LogName": "Rabbit",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"TargetField": [
+				"Pepper Rex",
+				"CustomFields"
+			],
+			"Entries": {
+				"meatIndex": 644
+			},
+			"When": {
+				"Meat": "Rabbit"
 			}
 		},
 		{

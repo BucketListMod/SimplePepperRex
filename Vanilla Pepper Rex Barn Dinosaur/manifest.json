@@ -1,8 +1,8 @@
 {
 	"Name": "Vanilla Pepper Rex Barn Dinosaur",
 	"Author": "BucketList",
-	"Description": "Raise large dinosaurs in barns, functionally identical to small ones in coops.",
-	"Version": "1.1.2",
+	"Description": "Raise large dinosaurs in barns, highly configuratble.",
+	"Version": "1.2.0",
 	"UniqueID": "BucketList.SimplePepperRex",
 	"UpdateKeys": [
 		"Nexus:30026"
